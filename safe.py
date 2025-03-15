@@ -1,4 +1,12 @@
-a = input("read or update")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <py-script>a = input("read or update")
 if a == "update":
     filename = input("Enter the filename to save the input: ")
 
@@ -21,6 +29,11 @@ elif a == "read":
     except FileNotFoundError:
         print(f"Error: The file {b} was not found.")
 else:
-    print("Rerun and type either read or write")
+    print("Rerun and type either read or write")<py-script/>
+
+
+</body>
+</html>
+
 
 
